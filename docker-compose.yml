@@ -1,0 +1,8 @@
+web:
+  image: tsari/jessi-apache2-php
+  ports:
+   - "80:80"
+  volumes:
+   - ./:/var/www
+   - ./log/:/var/log/apache2
+  container_name: web
