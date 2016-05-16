@@ -1,5 +1,5 @@
 web:
-  image: tsari/jessi-apache2-php
+  image: tsari/jessie-apache2-php
   ports:
    - "80:80"
   volumes:
